@@ -17,7 +17,7 @@ WORKDIR /app
 #ENV PATH="/opt/microchip/xc32/v2.50/bin:${PATH}"
 
 # Install any additional dependencies required by your project
-RUN make
+RUN sudo make
 
 # Expose any necessary ports
 #EXPOSE 5050
