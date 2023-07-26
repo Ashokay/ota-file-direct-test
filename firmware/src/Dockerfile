@@ -2,7 +2,7 @@ FROM vpetrigo/xc32
 
 # Install required packages and dependencies
 RUN apt-get update && \
-    apt-get install -y build-essential make	
+    apt-get install -y build-essential make sudo 	
 
 # Copy your project files to the container
 COPY . /app
