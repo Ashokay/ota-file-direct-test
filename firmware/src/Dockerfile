@@ -23,4 +23,4 @@ RUN sudo make
 #EXPOSE 5050
 
 # Define the command to run when the container starts
-CMD ["make","Makefile"]
+#CMD ["make","Makefile"]
